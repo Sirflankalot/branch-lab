@@ -8,9 +8,14 @@ using std::endl;
 using std::string;
 
 int main() {
-  string s;
+	string s;
 
-  s = box(4, 3);
-  cout << s << endl;
-  return 0;
+	s = box(4, 3);
+	cout << s << endl;
+	return 0;
 }
+
+/*
+A
+B
+*/
