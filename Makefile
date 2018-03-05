@@ -14,11 +14,11 @@ ALL_TARGETS = main tests
 
 all: $(ALL_TARGETS)
 
-main: obj/main.o obj/shapes.o
+main: obj/main.o obj/rect.o
 	@echo Linking $@
 	@$(CXX) $(WARNINGS) $(STANDARD) $(OPTIMIZATION) $^ -o $@
 
-tests: obj/tests.o obj/shapes.o obj/tests.o
+tests: obj/tests.o obj/rect.o obj/triangle.o
 	@echo Linking $@
 	@$(CXX) $(WARNINGS) $(STANDARD) $(OPTIMIZATION) $^ -o $@
 

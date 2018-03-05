@@ -1,6 +1,5 @@
-#include "shapes.h"
+#include "rect.h"
 #include "doctest.h"
-#include "triangle.h"
 #include <iostream>
 
 using std::string;

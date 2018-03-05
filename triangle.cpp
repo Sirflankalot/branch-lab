@@ -1,7 +1,8 @@
 #include "doctest.h"
-#include "shapes.h"
+#include "rect.h"
 #include <algorithm>
 #include <iostream>
+#include <string>
 
 std::string triangle(std::intmax_t height) {
 	std::string s;
@@ -13,7 +14,7 @@ std::string triangle(std::intmax_t height) {
 	return s;
 }
 
-TEST_CASE("Testing Box") {
+TEST_CASE("Testing Triangle") {
 	auto s = triangle(3);
 	CHECK(s ==
 	      "*\n"
