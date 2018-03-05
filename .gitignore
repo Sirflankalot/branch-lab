@@ -1,3 +1,9 @@
+#Extentionless files
+*
+!/**/
+!*.*
+!**/makefile
+
 # Prerequisites
 *.d
 
@@ -30,3 +36,7 @@
 *.exe
 *.out
 *.app
+
+# Folders
+dependencies/
+obj/
