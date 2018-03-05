@@ -1,5 +1,4 @@
 #include "rect.h"
-#include "doctest.h"
 #include <iostream>
 
 using std::string;
@@ -13,9 +12,4 @@ string box(int width, int height) {
 		s = s + "\n";
 	}
 	return s;
-}
-
-TEST_CASE("Testing Box") {
-	string s = box(4, 3);
-	CHECK(s == "****\n****\n****\n");
 }

@@ -1,4 +1,4 @@
-#include "doctest.h"
+
 #include "rect.h"
 #include <algorithm>
 #include <iostream>
@@ -12,12 +12,4 @@ std::string triangle(std::intmax_t height) {
 		s.push_back('\n');
 	}
 	return s;
-}
-
-TEST_CASE("Testing Triangle") {
-	auto s = triangle(3);
-	CHECK(s ==
-	      "*\n"
-	      "**\n"
-	      "***\n");
 }

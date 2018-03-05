@@ -18,7 +18,7 @@ main: obj/main.o obj/rect.o
 	@echo Linking $@
 	@$(CXX) $(WARNINGS) $(STANDARD) $(OPTIMIZATION) $^ -o $@
 
-tests: obj/tests.o obj/rect.o obj/triangle.o
+tests: obj/tests.o obj/rect.o obj/triangle.o obj/test_rect.o obj/test_triangle.o
 	@echo Linking $@
 	@$(CXX) $(WARNINGS) $(STANDARD) $(OPTIMIZATION) $^ -o $@
 
