@@ -7,11 +7,10 @@ using std::cout;
 using std::endl;
 using std::string;
 
-int main()
-{
+int main() {
   string s;
 
-  s = box(4,3);
+  s = box(4, 3);
   cout << s << endl;
   return 0;
 }
